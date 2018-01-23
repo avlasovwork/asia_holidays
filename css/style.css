@@ -16,18 +16,22 @@ a{
 	max-width:1000px;
 	box-shadow: 0 0 10px rgba(0,0,0,1);
 	margin-bottom:50px;
+	/*юзай сокрашенные свойства для марджинов*/
 }
 #header1{
 	height:175px;
 	margin:0px auto;
+	/*пиши 0 без едениц измерения (px, %  и т.д.) просто 0*/
 	position:relative;
 	background-color:#ffffff;
 	
 }
 #contacts{
 	padding:0px 30px 0 0;
+	/*пиши 0 без едениц измерения (px, %  и т.д.) просто 0*/
 	position:absolute;
 	right:0px;
+	/*пиши 0 без едениц измерения (px, %  и т.д.) просто 0*/
 	top:0;
 }
 #contacts p{
@@ -35,7 +39,9 @@ a{
 	font:12px Tahoma;
 	color:#46A4BB;
 	font-style:400;
+	/*фонт стайл не принимает такие проперти, ты наверное хотел написать font-weight*/
 	padding:0px;
+	/*пиши 0 без едениц измерения (px, %  и т.д.) просто 0*/
 	margin:4px 4px;
 }
 #contacts p a{
@@ -62,6 +68,7 @@ a{
 	background-color: #323232;
 	border-top:1px solid #EDEEF0;
 	border-bottom:2px solid #black;
+	/*или black или #000000. #black не работает*/
 	font:12px Tahoma;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
 }
@@ -139,12 +146,14 @@ ul.menu > li:hover > ul.submenu {
 	border-right:1px solid #CACDD1;
 	margin-top:3px;
 	border-top:1px solid #CACDD1;
+	/*юзай сокрашенные свойства для марджинов*/
 }
 h3{
 	text-align:center;
 	font:23px Tahoma;
 	color:#424C43;
 	font-style:900;
+	/*фонт стайл не принимает такие проперти*/
 	line-height:50%;
 }
 
@@ -152,6 +161,12 @@ h3{
 	font:17px Tahoma;
 	color:#424C43;
 	font-style:400;
+	/*фонт стайл не принимает такие проперти*/
 	line-height:50%;
 	text-align:center;
+}
+
+/*магия колонок одинаковой высоты))))*/
+.flex__wrap {
+	display: flex;
 }
