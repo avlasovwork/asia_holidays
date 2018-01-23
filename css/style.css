@@ -124,18 +124,15 @@ ul.menu > li:hover > ul.submenu {
 
 #sidebar1{
 	width:265px;
-	height:680px;
 	float:right;
 }
 
 #sidebar2{
 	width:265px;
-	height:680px;
 	float:left;
 }
 #content{
 	width:470px;
-	height:680px;
 	margin:0px auto;
 	background-color:#ffffff;
 	border-left:1px solid #CACDD1;
